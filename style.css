@@ -1,0 +1,23 @@
+/* This makes the background the image that it is (background of card) */
+body {
+  background-image: url(https://github.com/Charlotteg121/Princess-Snap/blob/main/1000015777%5B1%5D.jpg?raw=true);
+  background-size: 50%;
+}
+/* This sets the navabar to a pink colour */
+nav {
+  background-color: #f68b8a;
+}
+/* Makes it so that link effects do not apply */
+.card-title {
+ color: #000000;
+}
+a:hover,
+a:visited,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+/* Controls the 'avatar' on the princess info pages. makes it a circle.*/
+.princess-pic {
+  border-radius: 50%;
+}
